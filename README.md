@@ -72,3 +72,10 @@ This is screenshot of the theme running on Xfce desktop.
 [GNOME Colors]: https://code.google.com/p/gnome-colors
 [Shiki-Colors-Revival]: https://github.com/somasis/shiki-colors-revival
 [somasis]: https://github.com/somasis
+
+[antergos]: https://antergos.com/distro-logos/logo-square26x26.png "antergos"
+[arch]: https://antergos.com/distro-logos/archlogo26x26.png "arch"
+[fedora]: https://antergos.com/distro-logos/fedora-logo.png "fedora"
+[openSUSE]: https://antergos.com/distro-logos/Geeko-button-bling7.png "openSUSE"
+[ubuntu]: https://antergos.com/distro-logos/ubuntu_orange_hex.png "ubuntu"
+[debian]: https://antergos.com/distro-logos/openlogo-nd-25.png "debian"
