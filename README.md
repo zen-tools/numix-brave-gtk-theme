@@ -50,9 +50,9 @@ xfconf-query -c xfwm4 -p /general/theme -s "Numix-Brave"
 
 ## Screenshots
 
-This is screenshot of the theme running on Xfce desktop.
+This is screenshot of the theme running on my Openbox desktop.
 
-![Numix-Brave](https://raw.githubusercontent.com/Somasis/shiki-colors-revival/master/screenshots/Shiki-Brave-Revival.png)
+![Numix-Brave](https://raw.githubusercontent.com/zen-tools/numix-brave-gtk-theme/master/screenshots/openbox.png)
 
 ## Credits
 - [Numix] by [shimmerproject]
