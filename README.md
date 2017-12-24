@@ -1,16 +1,15 @@
-## Numix
-##### A modern flat theme with a combination of light and dark elements. It supports GNOME, Unity, Xfce and Openbox.
-[![By The Numix Project](https://img.shields.io/badge/By-The%20Numix%20Project-f0544c.svg?style=flat-square)](https://numixproject.org/) &nbsp;[![Circle CI](https://img.shields.io/circleci/project/numixproject/numix-gtk-theme/master.svg?circle-token=b14acf911433d315298235b0c2fbf7b2670a92a8&maxAge=3600&style=flat-square)](https://circleci.com/gh/numixproject/numix-gtk-theme/tree/master) &nbsp;[![GitHub release](https://img.shields.io/github/release/numixproject/numix-gtk-theme.svg?maxAge=3600&style=flat-square)](https://github.com/numixproject/numix-gtk-theme/releases/latest) &nbsp;![Supports GTK+ 3.18](https://img.shields.io/badge/GTK%2B-3.18-4a90d9.svg?style=flat-square) &nbsp;![Supports GTK+ 3.24](https://img.shields.io/badge/GTK%2B-3.24-4a90d9.svg?style=flat-square)
+# numix-brave
 
-## Install It
+This is fork of Numix theme with changes from abandoned shiki-colors-revival theme.
 
-### Distro Packages
-|Distro|Install Command/Links|
-|:----:|:----:|
-|![arch][arch] &nbsp;![antergos][antergos]|`sudo pacman -S numix-gtk-theme`|
-|![opensuse][opensuse]|[1 Click Install](http://software.opensuse.org/ymp/openSUSE:Factory/standard/numix-gtk-theme.ymp) &nbsp;\|&nbsp; [OBS Repo](http://software.opensuse.org/download.html?project=openSUSE%3AFactory&package=numix-gtk-theme)|
-|![fedora][fedora]|`sudo dnf install numix-gtk-theme`|
-|![debian][debian] &nbsp;![ubuntu][ubuntu]|`sudo apt install numix-gtk-theme`|
+Relevant license files can be found underneath the folders. (Numix is
+GPL-3, Xfwm4 and Metacity are GPL-2, Plank themes and build system are ISC)
+
+## Included
+- GTK 2 and 3 themes
+- Metacity themes
+- Xfwm4 themes
+- Openbox themes
 
 ## Build It
 
@@ -38,48 +37,38 @@ sudo make install
 To set the theme in GNOME, run the following commands in Terminal,
 
 ```sh
-gsettings set org.gnome.desktop.interface gtk-theme "Numix"
-gsettings set org.gnome.desktop.wm.preferences theme "Numix"
+gsettings set org.gnome.desktop.interface gtk-theme "Numix-Brave"
+gsettings set org.gnome.desktop.wm.preferences theme "Numix-Brave"
 ```
 
 To set the theme in Xfce, run the following commands in Terminal,
 
 ```sh
-xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
-xfconf-query -c xfwm4 -p /general/theme -s "Numix"
+xfconf-query -c xsettings -p /Net/ThemeName -s "Numix-Brave"
+xfconf-query -c xfwm4 -p /general/theme -s "Numix-Brave"
 ```
 
-### For contributors
-Start by reviewing the [guidelines for contributing](https://github.com/numixproject/numix-gtk-theme/blob/master/.github/CONTRIBUTING.md).
+## Screenshots
 
-#### For developers
-If you want to hack on the theme, make sure you have the `inotifywait` command available, which is used for watching and automatically building the files.
+This is screenshot of the theme running on Xfce desktop.
 
-To start watching for changes, run the following,
+![Numix-Brave](https://raw.githubusercontent.com/Somasis/shiki-colors-revival/master/screenshots/Shiki-Brave-Revival.png)
 
-```sh
-make watch
-```
+## Credits
+- [Numix] by [shimmerproject]
+- [GNOME Colors] project for the initial theme designs, and base for a lot
+  of the assets used for the Metacity and Xfwm4 themes.
+- [Shiki-Colors-Xfwm] by [fredbird67]
+- [Shiki-Colors-Revival] by [somasis]
 
-If you change any assets, you'll need to regenerate the `gtk.gresource.xml` and `gtk.gresource` files. You can use [grrr](https://github.com/satya164/grrr) to do it easily.
-
-### Requirements
-
-GTK+ 3.18 or above
-
-Murrine theme engine
-
-### Code and license
-
-Report bugs or contribute at [GitHub](https://github.com/numixproject/numix-gtk-theme)
-
-License: GPL-3.0+
-
-
-[antergos]: https://antergos.com/distro-logos/logo-square26x26.png "antergos"
-[arch]: https://antergos.com/distro-logos/archlogo26x26.png "arch"
-[fedora]: https://antergos.com/distro-logos/fedora-logo.png "fedora"
-[openSUSE]: https://antergos.com/distro-logos/Geeko-button-bling7.png "openSUSE"
-[ubuntu]: https://antergos.com/distro-logos/ubuntu_orange_hex.png "ubuntu"
-[debian]: https://antergos.com/distro-logos/openlogo-nd-25.png "debian"
-
+[gnome-colors-revival]: https://github.com/Somasis/gnome-colors-revival
+[arc-colors-revival]: https://github.com/Somasis/arc-colors-revival
+[Numix]: https://github.com/shimmerproject/Numix
+[Shiki-Colors-Xfwm]: http://xfce-look.org/content/show.php/Zukitwo-Colors+Xfwm+Themes?content=148624
+[shimmerproject]: http://github.com/shimmerproject
+[fredbird67]: http://xfce-look.org/usermanager/search.php?username=fredbird67
+[GNOME Colors palette]: https://github.com/Somasis/gnome-colors-revival/blob/master/Palette.png
+[releases]: https://github.com/Somasis/shiki-colors-revival/releases
+[GNOME Colors]: https://code.google.com/p/gnome-colors
+[Shiki-Colors-Revival]: https://github.com/somasis/shiki-colors-revival
+[somasis]: https://github.com/somasis
