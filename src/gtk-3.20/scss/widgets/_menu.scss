@@ -44,7 +44,7 @@
 
         > menuitem {
             min-height: 16px;
-            padding: ($spacing - 1px) ($spacing - 1px) * 2;
+            padding: ($spacing - 4px) ($spacing - 1px) * 2;
             border: 1px solid transparent;
             background-color: transparent;
             background-image: none;
@@ -290,9 +290,9 @@
     popover.events {
         grid.vertical {
             &, & list, & list row, & list box {
-                margin: 0; 
+                margin: 0;
                 border-radius: 0;
-                background-color: $menu_bg_color; 
+                background-color: $menu_bg_color;
             }
         }
 
@@ -311,7 +311,7 @@
                 min-width: 20px;
                 margin: 5px;
             }
- 
+
             & grid.horizontal day.day {
                 min-height: 24px;
                 min-width: 24px;

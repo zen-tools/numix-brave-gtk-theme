@@ -9,15 +9,15 @@
 </info>
 
 <!-- ::: CONSTANTS ::: -->
-<constant name="C_titlebar" value="gtk:custom(wm_bg,#444444)" />
-<constant name="C_border_focused" value="gtk:custom(wm_border_focused,#484848)" />
-<constant name="C_border_unfocused" value="gtk:custom(wm_border_unfocused,#393939)" />
-<constant name="C_title_focused" value="gtk:custom(wm_title_focused,#eeeeee)" />
-<constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,#888888)" />
-<constant name="C_icons_focused" value="gtk:custom(wm_icons_focused,#eeeeee)" />
+<constant name="C_titlebar" value="gtk:custom(wm_bg,#$212121)" />
+<constant name="C_border_focused" value="gtk:custom(wm_border_focused,#$484848)" />
+<constant name="C_border_unfocused" value="gtk:custom(wm_border_unfocused,#$393939)" />
+<constant name="C_title_focused" value="gtk:custom(wm_title_focused,#DEDEDE)" />
+<constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,#$888888)" />
+<constant name="C_icons_focused" value="gtk:custom(wm_icons_focused,#DEDEDE)" />
 <constant name="C_icons_focused_prelight" value="gtk:custom(wm_icons_focused_prelight,gtk:bg[SELECTED])" />
 <constant name="C_icons_focused_pressed" value="gtk:custom(wm_icons_focused_pressed,shade/gtk:bg[SELECTED]/0.8)" />
-<constant name="C_icons_unfocused" value="gtk:custom(wm_icons_unfocused,#888888)" />
+<constant name="C_icons_unfocused" value="gtk:custom(wm_icons_unfocused,#$888888)" />
 <constant name="C_icons_unfocused_prelight" value="gtk:custom(wm_icons_focused_prelight,gtk:bg[SELECTED])" />
 <constant name="C_icons_unfocused_pressed" value="gtk:custom(wm_icons_focused_pressed,shade/gtk:bg[SELECTED]/0.8)" />
 
